@@ -1,13 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/proxy.ts": {
-      "runtime": "edge"
-    },
-    "api/index.ts": {
-      "runtime": "edge"
-    }
-  },
   "routes": [
     {
       "src": "/proxy(.*)",
